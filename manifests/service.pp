@@ -1,6 +1,6 @@
-class jetty8::service {
-    service { "jetty8":
+class torssh::service {
+    service { "tor":
         ensure => running,
-        require => Class["jetty8::config"],
+        require => Class["torssh::config"],
     }
 }

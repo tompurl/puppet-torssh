@@ -1,6 +1,8 @@
-class jetty8 ($xmx_value = "64") {
+class torssh ($ssh_port = "9000") {
 
     Exec { path => [ "/bin/", "/sbin/" , "/usr/bin/", "/usr/sbin/" ] }
-    include jetty8::install, jetty8::config, jetty8::service
+    include apt
+
+    include torssh::prereqs, torssh::install, torssh::config, torssh::service
 
 }

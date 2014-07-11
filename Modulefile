@@ -1,0 +1,10 @@
+name    'tompurl-torssh'
+version '0.1.0'
+source 'TODO'
+author 'tompurl'
+license 'Apache License, Version 2.0'
+summary 'Front SSH with tor'
+description 'See summary :-)'
+project_page 'TODO'
+
+dependency 'puppetlabs/apt',   '>= 0.0.0'
