@@ -1,6 +1,5 @@
 class torssh::install {
-    package { ["tor", "deb.torproject.org-keyring"] :
-        require => Class["torssh::prereqs"],
+    package { "tor" :
         ensure => latest,
     }
 }
