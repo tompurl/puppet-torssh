@@ -7,9 +7,9 @@ This is a very simple package that makes an ssh server a
 
 ## Config Example
 
-class { 'torssh':
-    ssh_port => 9000, # This is the default
-}
+    class { 'torssh':
+        ssh_port => 9000, # This is the default
+    }
 
 ### Prerequisites
 
